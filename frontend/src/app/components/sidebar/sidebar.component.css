@@ -1,0 +1,20 @@
+.sidebar{
+    width:100%;
+    height: 3%;
+    float: flex;
+    background-color: orangered;
+    justify-content: center;
+    display: flex;
+}
+ul{
+    flex-direction: row;
+    display: flex;
+    gap: 4vh;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+mat-toolbar div{
+    float: right;
+}

@@ -1,0 +1,40 @@
+section{
+  align-items: center;
+  justify-content: center;
+}
+
+mat-form-field{
+  width: 100vh;
+  padding: 1vh;
+}
+.button-group {
+    float: right;
+    padding: 1vh;
+}
+mat-checkbox{
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}
+.table-entidade {
+  border-collapse: collapse;
+  cursor: pointer;
+}
+.table-entidade tbody.selected {
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+.selected {
+  background-color: lightblue;
+}
+.cadastrar {
+  background-color: #66ff00;
+  color: white;
+}
+.alterar {
+  background-color: rgb(76, 0, 255);
+  color: white;
+}

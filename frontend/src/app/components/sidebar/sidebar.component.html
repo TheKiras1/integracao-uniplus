@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+    <!-- Menu de cadastros -->
+    <button mat-button [matMenuTriggerFor]="cadastros">Cadastros</button>
+    <mat-menu #cadastros>
+        <button mat-menu-item routerLink="/entidades">Clientes</button>
+    </mat-menu>
+
+    <!-- Menu financeiro -->
+    <button mat-button [matMenuTriggerFor]="financeiro">Financeiro</button>
+    <mat-menu #financeiro>
+        <button mat-menu-item routerLink="contas-receber">Receber</button>
+        <button mat-menu-item routerLink="contas-pagar">Pagar</button>
+    </mat-menu>
+    <!-- <ul>
+        <li><a href="entidades">Entidades</a></li>
+    </ul> -->
+    <button mat-button routerLink="" class="index">Index</button>
+</mat-toolbar>
